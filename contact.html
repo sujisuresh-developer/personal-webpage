@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Suji Suresh</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-light">
+
+  <!-- Header -->
+  <header class="text-center py-4 bg-dark text-white">
+    <h1>Suji Suresh</h1>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+           <!-- Download CV Button -->
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary btn-sm px-3" href="Suji Latest_CV.pdf" download>
+            <i class="fas fa-download me-1"></i> Download CV
+          </a>
+        </li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active fw-bold" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">CONTACT ME</h2>
+
+    <div class="row g-4">
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="card shadow-sm p-4">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-envelope fa-2x text-primary me-3"></i>
+            <div>
+              <h5 class="mb-1">Email Me</h5>
+              <a href="mailto:sujisuresh313@gmail.com" class="text-decoration-none">sujisuresh313@gmail.com</a>
+            </div>
+          </div>
+          <hr>
+          <h5 class="mb-3">Social Profiles</h5>
+          <div class="d-flex gap-3 fs-4">
+            <a href="https://github.com/sujisuresh-developer" class="text-dark"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/ssujisureshh?igshid=OGQ5ZDc2ODk2ZA==" class="text-dark"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/suji-suresh" class="text-dark"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="card shadow-sm p-4">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="6" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
